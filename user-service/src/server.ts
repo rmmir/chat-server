@@ -1,5 +1,4 @@
 import express from 'express'
-import { Server } from 'http'
 import userRouter from './routes/authRoutes'
 import { errorConverter, errorHandler } from './middleware'
 import { connectToDB } from './database'
